@@ -35,7 +35,7 @@ function App() {
           <Button variant="contained" color="primary" onClick={toggle}>
             Toggle
           </Button>
-          <MakeshiftDrawer open={true} />
+          <MakeshiftDrawer open={isOpen} />
         </Grid>
       </Grid>
       <Grid container direction="row" style={botGridStyle} />

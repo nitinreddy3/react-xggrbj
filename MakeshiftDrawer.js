@@ -27,7 +27,7 @@ export default function MakeshiftDrawer({ open }) {
   }
 
   return (
-    <Slide direction="right" in={open} mountOnEnter unmountOnExit>
+    <Slide direction="left" in={open} mountOnEnter unmountOnExit>
       <div className={classes.root}>
         <List component="nav" aria-label="main mailbox folders">
           <ListItem
